@@ -6,6 +6,6 @@ const app = express();
 app.use(cors());
 
 // router
-app.use('/', router)
+app.use('/tools', router)
 
 app.listen(8080, () => console.log('Listening on 8080...'));
